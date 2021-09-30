@@ -1,0 +1,407 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+a{
+  text-decoration: none!important;
+}
+a:hover{
+  text-decoration: none!important;
+}
+ul,ol{
+  list-style-type: none;
+}
+img{
+  border: 0;
+  vertical-align: middle;
+}
+body{
+  font-family: 'Quicksand', sans-serif!important;
+}
+
+/* ====================================================================================================
+                                             Navbar Part Css
+======================================================================================================= */
+.navbar{
+  margin: 10px 0;
+}
+.navbar-brand img{
+  width: 150px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-right: 30px!important;
+  margin-left: 30px!important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+}
+.mr3{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background-color: #F91944;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.mr{
+  background-color: #F91944;
+  color: #ffffff!important;
+  border-radius: 30px;
+  padding: 7px 24px!important;
+  text-align: center;
+}
+
+/* =====================================================================================================
+                                           Banner Part Css
+======================================================================================================= */
+.banner{
+  background-image: url(../images/bannerbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 200px;
+}
+.banner-content h1{
+  margin-bottom: 20px;
+}
+.banner-content .form-control{
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+  padding: 12px 20px;
+  position: relative;
+  right: -5%;
+}
+.banner-content .btn{
+  border-radius: 30px;
+  width: 100%;
+  padding: 12px 0;
+  position: relative;
+  left: -10%;
+}
+.banner-content .btn-primary{
+  background-color: #F91944;
+  border-color: #F91944;
+}
+
+
+
+
+/* ================================================================================================
+                                               Menu Part Css
+================================================================================================== */
+.menu{
+  padding: 80px 0;
+}
+.menu-button {
+  margin-bottom: 60px;
+}
+.menu-button button{
+  border: none;
+  background: none;
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+}
+.menu-button button:nth-last-child(1){
+  margin-right: 0;
+}
+.active-category{
+  color: #F91944!important;
+  border-bottom: 2px solid #F91944!important;
+}
+.nonactive-category{
+  color: #222222;
+  border-bottom: none;
+}
+.menu-item{
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  transition: all linear .3s;
+}
+.menu-item:hover{
+  box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.19);
+  -webkit-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.19);
+}
+.menu-item h6{
+  padding-top: 20px;
+  color: #222222;
+  font-weight: 700;
+}
+.menu-item p{
+  color: #666666;
+}
+.menu-item span{
+  color: #222222;
+  font-weight: 700;
+  font-size: 24px;
+}
+.menu-item img{
+  width: 100%;
+}
+.menu-detail{
+  padding: 80px 0;
+}
+.menu-detail h2{
+  color: #222222;
+  font-weight: 700;
+}
+.menu-detail p{
+  color: #666;
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: justify;
+}
+.menu-detail span{
+  color: #222222;
+  font-size: 26px;
+  font-weight: 600; 
+}
+.menu-detail .count{
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center
+}
+.menu-detail .count span{
+  color: #222222;
+  font-weight: 400;
+  font-size: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.menu-detail .count span:nth-last-child(1){
+  margin-right: 0;
+}
+.menu-detail img{
+  width: 100%;
+}
+.cart button{
+  background: #F91944;
+  border: 1px solid #F91944;
+  margin-top: 30px;
+  padding: 8px 30px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+/* =================================================================================================
+                                                Blog Part Css
+==================================================================================================== */
+.blog{
+  padding: 50px 0;
+}
+.blog-heading{
+  padding: 30px 0;
+}
+.blog-item{
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all linear .3s;
+}
+.blog-item:hover{
+  box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.19);
+  -webkit-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.19);
+  -moz-box-shadow: 0px 9px 30px 0px rgba(0,0,0,0.19);
+}
+.blog-item img{
+  width: 100%;
+}
+.icon{
+  background: #F91944;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.blog-content{
+  padding: 30px 20px;
+}
+.blog-content a{
+  color: #4F76F7;
+  margin-right: 10px;
+}
+
+
+
+
+/* ===============================================================================================
+                                             Footer Part Css
+=================================================================================================== */
+.footer{
+  background-color: #191919;
+  padding: 70px 0;
+}
+.footer-logo img{
+  width: 150px;
+}
+.mr2{
+  padding-top: 80px;
+}
+.useful-link ul li{
+  margin-bottom: 5px;
+}
+.useful-link ul li a{
+  color: #ffffff;
+}
+.copyright span{
+  color: #ffffff;
+}
+.footer-bottom-link{
+  text-align: right;
+}
+.footer-bottom-link a{
+  color: #ffffff;
+  margin-left: 25px;
+}
+
+
+
+/* ==================================================================================================
+                                                Cart Part Css
+==================================================================================================== */
+.cart-review{
+  margin: 30px 0;
+  border: 1px solid #ddd;
+  background: #F91944;
+  border-radius: 25px;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+}
+.mr4{
+  padding: 60px 0 ;
+}
+
+
+/* ==================================================================================================
+                                              Login Part Css
+===================================================================================================== */
+.login-register{
+  background: url(../images/signup.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.login-register-form{
+  text-align: center;
+}
+.login-register-form .form-control{
+  background: #F5F5F5;
+  border-color: transparent;
+  padding: 15px 12px;
+}
+.login-register-form .btn{
+  background: #F91944;
+  border-color: #F91944;
+  width: 100%;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+
+/* ==================================================================================================
+                                           Shipment Form Part Css
+==================================================================================================== */
+.Shipment{
+  padding: 80px 0;
+}
+.shipment-form{
+  padding: 0 60px;
+}
+.title{
+  color: #222222;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+}
+.ship-form input{
+  display: block;
+  margin-top: 30px;
+  padding: 15px;
+  border: transparent;
+  background: #F5F5F5;
+  height: 55px;
+  border-radius: 5px;
+  width: 100%;
+}
+.error{
+  color: red;
+}
+.mr5{
+  background: #F91944!important;
+  color: #ffffff;
+}
+.order-summery{
+  padding: 0 50px;
+}
+.place-order{
+  margin: 30px 0;
+  background: #F5F5F5;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.place-order p{
+  color: #222222;
+  font-weight: 600;
+  text-align: right;
+}
+.order-summery .btn{
+  width: 100%;
+  background: #F91944;
+  border-color: #F91944;
+  padding: 15px 0;
+}
+
+/* ==================================================================================================
+                                                 Contact Part Css
+====================================================================================================== */
+.contact-detail{
+  padding: 80px 0;
+}
+.map{
+  margin: 0 20px;
+}
+.map iframe{
+  border-radius: 10px;
+}
+.contact-review{
+  padding: 20px 30px;
+  background: #F5F5F5;
+  border-radius: 10px;
+  margin: 0 40px;
+}
+.contact-review .btn{
+  background: #F91944;
+  padding: 15px 0;
+  border-color: transparent;
+  width:  100%;
+  color: #ffffff;
+}
+.location{
+  padding: 10px 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 10px 0;
+}
